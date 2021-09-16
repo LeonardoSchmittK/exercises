@@ -1,0 +1,11 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeonardoSchmittK/exercises.git",
+  "author": "Leonardo Schmitt <Leoeyeschmittk@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
