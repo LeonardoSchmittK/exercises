@@ -1,11 +1,18 @@
 {
-  "name": "exercises",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/LeonardoSchmittK/exercises.git",
-  "author": "Leonardo Schmitt <Leoeyeschmittk@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.4.3"
-  }
+   "name": "exercises",
+   "version": "1.0.0",
+   "main": "index.js",
+   "repository": "https://github.com/LeonardoSchmittK/exercises.git",
+   "author": "Leonardo Schmitt <Leoeyeschmittk@gmail.com>",
+   "license": "MIT",
+   "scripts": {
+      "ts": "ts-node-dev --keep-alive ./exercises/outlier.ts",
+      "compile": "nodemon exercises/connection.ts",
+      "start": "nodemon dist/greedy.js"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.12",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.4.3"
+   }
 }
